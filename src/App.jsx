@@ -1,19 +1,22 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 import './styles/bootstrap/bootstrap.scss'
 import Header from './components/Header';
+import Clima from './pages/Clima';
+
 function App() {
+  const [city, setCity] = useState("")
   return (
     <div>
-      <Header />
+      <Header 
+        onSelectLocalidad={(e)=>{setCity(e)}}
+      />
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-
-        </header>
+        <div className="App-body">
+          <Clima 
+            city={city}
+          />
+        </div>
       </div>
     </div>
   );

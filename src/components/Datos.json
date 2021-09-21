@@ -1,20 +1,35 @@
 [{
     "ciudad":"Corrientes",
-    "id":"1"
+    "id":"3435217",
+    "country":"AR",
+    "lat": -27.4806,
+    "lon": -58.8341
 },
 {
     "ciudad":"Santa Fe",
-    "id":"2"
+    "id":"3836277",
+    "country":"AR",
+    "lat": -31.6333,
+    "lon": -60.7
 },
 {
     "ciudad":"Córdoba",
-    "id":"3"
+    "id":"3860259",
+    "country":"AR",
+    "lat": -31.4135,
+    "lon": -64.1811
 },
 {
     "ciudad":"Salta",
-    "id":"4"
+    "id":"3838233",
+    "country":"AR",
+    "lat": -24.7859,
+    "lon": -65.4117
 },
 {
     "ciudad":"Neuquén",
-    "id":"5"
+    "id":"3843123",
+    "country":"AR",
+    "lat": -38.9516,
+    "lon": -68.0591
 }]
