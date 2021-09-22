@@ -9,7 +9,7 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <header>
+      // <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <Selector
@@ -17,7 +17,7 @@ class Header extends React.Component {
             />
           </div>
         </nav>
-      </header>
+      // </header>
     );
   }
 }
