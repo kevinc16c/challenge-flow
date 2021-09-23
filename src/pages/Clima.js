@@ -119,7 +119,7 @@ class Clima extends React.Component {
     const { weather, title, temp_min, temp_max, forecast, temp, feels_like, units } = this.state;
     return (
       <div className="clima">
-        <div className="col-6" style={{ marginBottom: 'auto' }}>
+        <div className="col-sm-12 md-12 xs-12" style={{ marginBottom: 'auto' }}>
           {weather &&
             <div style={{ width: '100%' }}>
 
@@ -173,7 +173,7 @@ class Clima extends React.Component {
             </div>
           }
         </div>
-        <div className="col-6">
+        <div className="col-sm-12 md-12 xs-12">
           {forecast &&
             <div style={{ width: '100%' }}>
               <h4 style={{ color: 'white' }}>Pronóstico para los próximos 5 días</h4><br />
