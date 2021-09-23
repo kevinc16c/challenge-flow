@@ -1,7 +1,7 @@
 export const config = {
     APP_ID: "a23470dac84c28f6183779493c54435a",
-    ENDPOINT_CURRENT: "http://api.openweathermap.org/data/2.5/weather?",
-    ENDPOINT_FORECAST: "http://api.openweathermap.org/data/2.5/forecast?",
+    ENDPOINT_CURRENT: "http://api.openweathermap.org/data/2.5/weather?&lang=es&",
+    ENDPOINT_FORECAST: "https://api.openweathermap.org/data/2.5/onecall?&lang=es&exclude=minutely&",
     TITULOS_CLIMA:[
         {
             d_icon_name:"01d",

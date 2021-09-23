@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Selector 1`] = `
+<body>
+  <div>
+    <select
+      class="form-select"
+    >
+      <option
+        value="0"
+      >
+        Seleccione una localidad
+      </option>
+      <option
+        value="3435217"
+      >
+        Corrientes
+      </option>
+      <option
+        value="3836277"
+      >
+        Santa Fe
+      </option>
+      <option
+        value="3860259"
+      >
+        Córdoba
+      </option>
+      <option
+        value="3838233"
+      >
+        Salta
+      </option>
+      <option
+        value="3843123"
+      >
+        Neuquén
+      </option>
+    </select>
+  </div>
+</body>
+`;
