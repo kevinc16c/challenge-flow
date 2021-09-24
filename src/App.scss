@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  > .container,
+  > .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .form-select{
   display: block;
   padding: .375rem 2.25rem .375rem .75rem;
@@ -56,10 +71,11 @@
   display: flex ;
 }
 .lbl-temp{
-  font-size: 30px;
+  font-size: 40px;
 }
 .lbl-det{
   font-size: 14px;
+  text-align: left;
 }
 
 .clima {
@@ -77,15 +93,23 @@
 }
 
 .card-5d{
-  font-size: 14px;
-  width: 100%;
+  font-size: 15px;
+  // width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  // color: rgb(184, 184, 184);
+  border-radius: 6px;
+  background-color: rgb(184, 184, 184);
 }
 
+.card-5d:hover {
+  background-color: rgb(155, 98, 98);
+}
 .link-button-metric {
   background-color: transparent;
   border: none;
   cursor: pointer;
   display: inline;
-  font-size: 30px;
+  font-size: 40px;
   color: 'black'
 }

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a Clima 1`] = `
+<body>
+  <div>
+    <div
+      class="clima"
+    >
+      <div
+        class="col-sm-12 md-12 xs-12"
+        style="margin-bottom: auto;"
+      />
+      <div
+        class="col-sm-12 md-12 xs-12"
+      />
+      <div
+        class="col-sm-12 md-12 xs-12"
+      >
+        <br />
+      </div>
+    </div>
+  </div>
+</body>
+`;
