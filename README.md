@@ -15,8 +15,9 @@ Por último una tarjeta a modo de detalle de la tarjeta seleccionada.
 
 ## Información relevante
 ```
-Presentado apróximadamente a las 23:20
+Presentado apróximadamente a las 23:50 del día jueves 23/09/2021
 ```
+**Importante: Permitir al navegador acceder a la ubicación**
 
 Utiliza servicio de API de [Open Weather Map](https://openweathermap.org/api)
 Se creó un archivo Datos.json para mayor comodidad del selector, las coordenadas fueron tomadas de las busquedas en la página anteriormente mencionada.
@@ -26,3 +27,5 @@ La carpeta styles fue puesta allí por motivos de evitar errores en node_modules
 Los colores fueron seleccionados de manera tal que sean agradables a la vista y en contraste con los iconos que pone a disposición [Open Weather Map](https://openweathermap.org/api)
 
 Nunca he realizado test cases, probablemente no sea lo que se espera.
+
+Este es el [link del proyecto](https://challenge-flow-rho.vercel.app/) subido en Vercel.
