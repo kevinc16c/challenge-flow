@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.scss';
-import './styles/bootstrap/bootstrap.scss'
 import Header from './components/Header';
 import Clima from './pages/Clima';
 
