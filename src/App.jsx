@@ -1,24 +1,22 @@
 import React, { useState } from 'react';
-import './App.scss';
-import Header from './components/Header';
-import Clima from './pages/Clima';
+import './styles.scss';
+import Header from './components/Header.jsx';
+import Clima from './pages/Clima.jsx';
 
 function App() {
-  const [city, setCity] = useState("")
+  const [city, setCity] = useState("");
   return (
-    <div className="Header-App">
+    <>
       <Header
         onSelectLocalidad={(e) => { setCity(e) }}
       />
-      <div className="App">
-        <div className="App-body">
-          <br />
-          <Clima
-            city={city}
-          />
-        </div>
+      <div className="App-body">
+        <br />
+        <Clima
+          city={city}
+        />
       </div>
-    </div>
+    </>
   );
 }
 

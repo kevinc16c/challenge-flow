@@ -1,5 +1,7 @@
-import React from 'react'
-import Selector from './Selector'
+import React from 'react';
+import Selector from './Selector';
+import './styles.scss';
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -9,15 +11,13 @@ class Header extends React.Component {
   }
   render() {
     return (
-      // <header>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="header">
           <div className="container-fluid">
             <Selector
               onSelectLocalidad={this.props.onSelectLocalidad}
             />
           </div>
         </nav>
-      // </header>
     );
   }
 }

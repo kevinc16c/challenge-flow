@@ -1,5 +1,6 @@
-import React from 'react'
-import Datos from './Datos.json'
+import React from 'react';
+import Datos from './Datos.json';
+
 class Selector extends React.Component {
     constructor(props) {
         super(props);
@@ -20,7 +21,7 @@ class Selector extends React.Component {
     render() {
         const { data } = this.state
         return (
-            <select className="form-select" onChange={this.handleChange}>
+            <select className="select" onChange={this.handleChange}>
                 <option defaultValue value="0">Seleccione una localidad</option>
                 {data.map(localidad => <option value={localidad.id}>{localidad.ciudad}</option>)}
             </select>

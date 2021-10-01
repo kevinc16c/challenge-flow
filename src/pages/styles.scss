@@ -1,0 +1,56 @@
+.icono-weather-size{
+    width: 100px;
+  }
+  
+  .icono-weather-size-2{
+    width: 50px;
+  }
+  .weather-first{
+    display: flex ;
+  }
+  .lbl-temp{
+    font-size: 40px;
+  }
+  .lbl-det{
+    font-size: 14px;
+    text-align: left;
+  }
+  .card{
+      border-radius: 6px;
+  }
+  .card-5d:hover {
+    background-color: rgb(155, 98, 98);
+  }
+  .link-button-metric {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    font-size: 40px;
+    color: 'black'
+  }
+  .card-5d{
+    font-size: 15px;
+    // width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    // color: rgb(184, 184, 184);
+    border-radius: 6px;
+    background-color: rgb(184, 184, 184);
+  }
+
+  .clima {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 2%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    margin: 10px;
+
+  }
