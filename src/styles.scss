@@ -1,10 +1,65 @@
-.App-body {
-  background-color: #282c34;
-  min-height: 100vh;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  overflow: hidden;
-  position: relative;
-  text-align: center;
+
+@media screen and (max-width: 320px) {
+  .App-body {
+    background-color: #009e4f65;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .App-body {
+    background-color: #aa3850;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .App-body {
+    background-color: #eff317;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .App-body {
+    background-color: #0e50d3;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .App-body {
+    background-color: #010303;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
 }
