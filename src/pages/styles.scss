@@ -1,4 +1,7 @@
-.icono-weather-size{
+  h4{
+    color: white;
+  }
+  .icono-weather-size{
     width: 100px;
   }
   
@@ -17,6 +20,11 @@
   }
   .card{
       border-radius: 6px;
+      width: 100%;
+      background-color: #b8b8b8;
+  }
+  .card-header{
+    padding: 10px 0px 0px 0px;
   }
   .card-5d:hover {
     background-color: rgb(155, 98, 98);
@@ -44,7 +52,7 @@
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    margin: 2%;
+    margin: auto;
   }
   
   .grid-container {
@@ -52,5 +60,4 @@
     grid-template-columns: auto;
     grid-gap: 10px;
     margin: 10px;
-
   }

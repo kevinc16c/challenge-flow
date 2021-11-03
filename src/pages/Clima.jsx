@@ -133,11 +133,12 @@ class Clima extends React.Component {
       <div className="clima">
         {weather &&
           <div>
-            <h4 style={{ color: 'white' }}>Pronóstico actual</h4><br />
-            <div className="card" style={{ width: '100%', backgroundColor: '#b8b8b8' }}>
+            <h4>Pronóstico actual</h4><br />
+            <div className="card">
               <div className="card-header">
                 {utils.capitalizeFirstLetter(utils.unixToDate(weather.dt))}
               </div>
+              <hr/>
               <div className="card-body">
                 <h3 className="card-title" style={{ float: 'left', marginBottom: 'auto' }}>
                   <img className="img-responsive icono-weather-size" alt={`${weather.weather[0].icon}`} src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}></img>
